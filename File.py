@@ -37,3 +37,8 @@ arqOut.close()
 
 '''
 
+#apenas uma boa pratica
+with open('meuArquivo.txt','r') as file:
+    lerDados = file.read()
+    print(lerDados)
+file.closed
