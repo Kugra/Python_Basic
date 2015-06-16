@@ -1,3 +1,5 @@
+from multiprocessing.connection import arbitrary_address
+
 __author__ = 'aluno01'
 
 
@@ -36,4 +38,10 @@ arqIn.close()
 arqOut.close()
 
 '''
+
+#apenas uma boa pratica
+with open('meuArquivo.txt','r') as file:
+    lerDados = file.read()
+    print(lerDados)
+file.closed
 
