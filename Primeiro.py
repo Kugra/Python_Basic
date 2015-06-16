@@ -1,20 +1,20 @@
 __author__ = 'Johan'
-# NAO USAR CARACTERES ESPECIAIS! VALEU, FALOU!
+#NAO USAR CARACTERES ESPECIAIS! VALEU, FALOU!
 frase = "Nos estamos todos bebados, bebados de cair"
 print("Original: " + frase)
 print("0 a 5 posicao: " + frase[:5])
 print("ultimas 4: " + frase[-4:])
 
-# sustenido para comentario em linha
-# a funcao len() retorna um inteiro com o tamanho de algo
+#sustenido para comentario em linha
+#a funcao len() retorna um inteiro com o tamanho de algo
 tamanhoFrase = len(frase)
 print("Tamanho da frase: " + str(tamanhoFrase))
-# A frase acima precisou ser convertida de inteiro para String
-# Para converter inteiro em String: str()
-# Para converter String em inteiro: int('')
+#A frase acima precisou ser convertida de inteiro para String
+#Para converter inteiro em String: str()
+#Para converter String em inteiro: int('')
 '''E podemos usar 3 aspas simples ou duplas para comentario em bloco'''
 
-# O if/elif/else ira executar o que esta dentro da indentacao
+#O if/elif/else ira executar o que esta dentro da indentacao
 nome = "Johan"
 if nome is "Johan":
     print(nome+" fez este tutorial bem explicado :v")
@@ -32,16 +32,16 @@ else:
 
 #array
 frutas = ["maca", "banana", "melancia"]
-# adicionar item
+#adicionar item
 frutas.append("abacate")
 print("Itens no array listados por um FOR")
 
-# Assim como o if/elif/else tudo que estiver endentado dentro do FOR sera executado
+#Assim como o if/elif/else tudo que estiver endentado dentro do FOR sera executado
 for i in frutas:
     print(i)
     print(len(i))
 
-# limitando o for ate a posicao 2
+#limitando o for ate a posicao 2
 for f in frutas[:2]:
     print(f)
 #for 0 a 10
@@ -83,3 +83,19 @@ for n in range(1, 20):
 print('We are the {} who say "{}!"'.format('knights', 'Ni'))
 
 print('This {food} is {adjective}.'.format(food='spam', adjective='absolutely horrible'))
+
+#Calculos complexos
+l = 3 + 4j
+print(l)
+j=2+l-2j
+print(j)
+
+#Bhaskara
+a=2
+b=2
+c=2
+from math import sqrt
+x1=-(b)+(sqrt(b^2)-4*a*c)/(2*a)
+x2=-(b)-(sqrt(b^2)-4*a*c)/(2*a)
+print("Valor de x1:", x1)
+print("Valor de x2:", x2)
