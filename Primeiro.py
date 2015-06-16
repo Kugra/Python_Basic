@@ -79,6 +79,7 @@ for n in range(1, 20):
         continue
     print(n)
 
+#String format
+print('We are the {} who say "{}!"'.format('knights', 'Ni'))
 
-
-
+print('This {food} is {adjective}.'.format(food='spam', adjective='absolutely horrible'))
