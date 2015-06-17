@@ -1,4 +1,15 @@
+#!/usr/bin/env python
+"""
+
+A linha acima é usada para executar como script.
+Utilizar chmod u+x nomeDoArquivo
+
+"""
+
+
 __author__ = 'Johan'
+
+
 #NAO USAR CARACTERES ESPECIAIS! VALEU, FALOU!
 frase = "Nos estamos todos bebados, bebados de cair"
 print("Original: " + frase)
